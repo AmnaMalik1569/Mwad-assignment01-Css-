@@ -1,0 +1,161 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  color: #6c757d;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100%;
+  background-color: purple; 
+  
+  
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.sidebar-content {
+  margin-top: 150px;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 8px solid white;
+}
+
+.nav-links {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.nav-links li {
+  margin: 20px 0;
+}
+
+.nav-links a {
+  color: #E1B6A5;
+  text-decoration: none;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+
+.main-content {
+  margin-left: 280px; 
+  padding: 50px;
+}
+
+.resume-section {
+  padding: 100px 40px;
+}
+
+h1 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 90px;
+  color: #343a40;
+  line-height: 1;
+}
+
+h1 span {
+  color: #BD5D38;
+}
+
+h2 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 50px;
+  color: #343a40;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: #343a40;
+  font-size: 26px;
+}
+
+h4 {
+  color: #868e96;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.sub-heading {
+  font-size: 18px;
+  margin: 10px 0 40px 0;
+  color: #868e96;
+}
+
+.sub-heading a {
+  color: #BD5D38;
+}
+
+.para {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.img{
+  width: 75px;
+  height: 75px;
+  
+}
+
+
+.img{
+  width: 75px;
+  height: 75px;
+}
+
+.item {
+  margin-bottom: 50px;
+}
+
+.item-head {
+  overflow: hidden; 
+}
+
+.item-head h3 {
+  float: left;
+}
+
+.item-head .date {
+  float: right;
+  color: #BD5D38;
+  font-size: 16px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #495057;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid #eee;
+}
